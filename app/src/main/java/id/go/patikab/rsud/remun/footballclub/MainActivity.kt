@@ -2,13 +2,7 @@ package id.go.patikab.rsud.remun.footballclub
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
-import android.view.View
-import android.widget.Adapter
-import android.widget.Toast
-import id.go.patikab.rsud.remun.footballclub.R.attr.layoutManager
-import id.go.patikab.rsud.remun.footballclub.adapter.MainAdapter
+import id.go.patikab.rsud.remun.footballclub.model.Item
 import id.go.patikab.rsud.remun.footballclub.view.MainActivityUI
 import org.jetbrains.anko.*
 
