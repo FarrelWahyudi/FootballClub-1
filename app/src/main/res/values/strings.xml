@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">FootballClub</string>
+    <string name="teams">teams</string>
+    <string name="favorites">favorites</string>
 
     <string-array name="club_name">
         <item>Barcelona FC</item>
@@ -31,5 +33,6 @@
         <item>@drawable/img_acm</item>
         <item>@drawable/img_arsenal</item>
     </array>
+    <string name="title_activity_home">HomeActivity</string>
 
 </resources>
