@@ -28,8 +28,8 @@ class MainAdapter (private val context: Context, private val items: List<Item>, 
 
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        val img: ImageView = itemView?.findViewById(R.id.img) as ImageView
-        val txtTitle: TextView = itemView?.findViewById(R.id.txtName) as TextView
+        val img: ImageView = itemView.findViewById(R.id.img) as ImageView
+        val txtTitle: TextView = itemView.findViewById(R.id.txtName) as TextView
 
         fun bindItem(items: Item, listener: (Item) -> Unit) {
             txtTitle.text = items.name

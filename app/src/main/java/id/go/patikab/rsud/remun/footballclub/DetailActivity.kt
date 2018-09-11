@@ -20,8 +20,8 @@ class DetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         DetailUI().setContentView(this)
 
-        val img: ImageView = findViewById(R.id.img) as ImageView
-        val txtTitle: TextView = findViewById(R.id.txtName) as TextView
+        val img: ImageView = findViewById(R.id.img)
+        val txtTitle: TextView = findViewById(R.id.txtName)
         val descript: TextView = findViewById(R.id.txtdks)
 
         val intent = intent
